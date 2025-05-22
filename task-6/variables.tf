@@ -15,7 +15,7 @@ variable "instance_type" {
 }
 
 variable "ec2_user" {
-    default = "rapidd-aws-key"
+    default = "Adhi@2209"
 }
 
 variable "region" {
