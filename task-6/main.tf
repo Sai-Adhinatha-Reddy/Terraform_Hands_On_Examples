@@ -1,3 +1,6 @@
+provider "aws" {
+    region = var.region
+}
 # https://registry.terraform.io/modules/claranet/vpc-modules/aws/latest/submodules/public-subnets?tab=outputs
 module "vpc" {
   source  = "claranet/vpc-modules/aws//modules/vpc"
