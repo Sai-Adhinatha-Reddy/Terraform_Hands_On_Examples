@@ -7,5 +7,5 @@ sudo service nginx start
 sudo yum install -y git
 
 cd /home/ec2-user
-git clone https://github.com/raghuck/food-menu-staticwebsite.git
+git clone https://github.com/Sai-Adhinatha-Reddy/Food_Menu_Static_Website.git
 sudo cp /home/ec2-user/food-menu-staticwebsite/* /usr/share/nginx/html/
