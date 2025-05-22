@@ -1,8 +1,9 @@
 #!/bin/bash
 #Commands to install nginx, git and host the static website
-sudo yum update -y &&
+sudo yum update -y
+sudo sleep 15
 sudo amazon-linux-extras install nginx1 -y
-sudo sleep 5
+sudo sleep 10
 sudo systemctl start nginx
 sudo systemctl status nginx
 sudo yum install -y git
