@@ -34,7 +34,7 @@ module "ec2_instance" {
   subnet_id              = module.public_subnets.subnet_ids.0
 
   # nginx installation
-  # user_data = file("userdata.tpl")
+user_data = file("userdata.tpl")
 
   tags = {
     Name   = "dev_instance"
